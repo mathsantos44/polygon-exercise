@@ -16,6 +16,8 @@ public class JobService {
 
         Double height = sc.nextDouble();
 
+        sc.close();
+
         Rectangle rectangle = new Rectangle(width, height);
 
         System.out.printf("Area: %.2f%n", rectangle.area());
